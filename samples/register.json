@@ -1,0 +1,31 @@
+{
+  "resident": "care-3",
+  "contact_rules": [
+    {
+      "contact": "neighbor-2",
+      "scope": "unconfirmed_check",
+      "detail": "visit_request",
+      "until": 47
+    },
+    {
+      "contact": "family-6",
+      "scope": "unconfirmed_check",
+      "detail": "call_request",
+      "until": 180
+    }
+  ],
+  "equipment": {
+    "d-1": {
+      "period": [
+        0,
+        50
+      ]
+    },
+    "d-2": {
+      "period": [
+        48,
+        180
+      ]
+    }
+  }
+}

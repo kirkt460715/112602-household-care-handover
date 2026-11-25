@@ -1,0 +1,59 @@
+[
+  {
+    "sequence": 1,
+    "at": 38,
+    "source": "device",
+    "facts": {
+      "id": "d-1",
+      "last_seen": 30,
+      "status": "offline"
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 41,
+    "source": "desk",
+    "facts": {
+      "request": "c-19",
+      "assigned": "neighbor-2",
+      "details": "visit_request"
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 47,
+    "source": "resident",
+    "facts": {
+      "revoke": "neighbor-2"
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 49,
+    "source": "device",
+    "facts": {
+      "id": "d-2",
+      "status": "online"
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 53,
+    "source": "partner",
+    "facts": {
+      "request": "c-19",
+      "accepted_at": 46,
+      "result": "accepted",
+      "identity": "neighbor-2"
+    }
+  },
+  {
+    "sequence": 6,
+    "at": 59,
+    "source": "partner",
+    "facts": {
+      "request": "c-19",
+      "result": "cannot_attend"
+    }
+  }
+]

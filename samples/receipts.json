@@ -1,0 +1,22 @@
+[
+  {
+    "action": "care-ack",
+    "desk": "district-desk",
+    "ref": "c-19",
+    "delayed": true,
+    "evidence": {
+      "accepted_at": 46,
+      "at_scene": false
+    }
+  },
+  {
+    "action": "device-state",
+    "desk": "equipment",
+    "ref": "d-2",
+    "delayed": false,
+    "evidence": {
+      "registered_at": 48,
+      "last_seen": 49
+    }
+  }
+]
